@@ -1,0 +1,161 @@
+body{
+    background-color: white;
+    font-family:monaco; 
+}
+.finalLogoClass{
+    height: auto;
+    width: clamp(40px,75%,100px);
+  }
+.navbarBar{
+  background-color: #10847e;
+  display: grid;
+  width: 100%;
+  display: flex;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbarButton{
+  font-family: 'Monaco','Consolas','Arial';
+  /* font-size: 120%; */
+  font-size: clamp(0.9rem, 1.2vw, 3rem);
+}
+.searchBar{ 
+  color:white;
+  cursor: pointer;
+  align-items: center;
+}
+.searchIcon{
+  color: black;
+  background-color: white;
+}
+.loginButton,.cartButton{
+  color: white;
+  font-family: 'Monaco','Consolas','Arial';
+}
+.active{
+text-decoration: underline ;	
+}
+.loginButton:hover:not(.active),.cartButton:hover:not(.active),.medicines:hover:not(.active),.healthCare:hover:not(.active),.others:hover:not(.active),.homeButton:hover:not(.active){
+text-decoration: underline;
+}
+.homeButton{
+  font-family: 'Monaco','Consolas','Arial';
+  font-size: clamp(1.2rem, 1.5vw, 3rem);
+}
+.pillImage{
+  background-color: blue;
+  width: 100%;
+  height: 100%
+}
+.buttonImage{
+  position: relative;
+}
+.buttonText{
+  position: relative;
+  font-size: 20px;
+  border-radius: 15px 0px 0px 15px;
+  background-color: rgb(240, 217, 217);
+}
+footer{
+background-color: #BEC1C3
+}
+.socialMediaIcons{
+color: #E5E8EA;
+text-decoration: none;
+font-size: clamp(0.9rem, 2.5vw, 2rem);
+}
+.contactIcons{
+color: #E5E8EA;
+text-decoration: none;
+font-size: clamp(0.9rem, 2vw, 2rem);
+}
+body{
+overflow-x: hidden;
+}
+.membership{
+position: absolute;
+}
+.membershipDoc{
+position: relative;
+}
+/* three buttons on the index page */
+.category_link{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  transition: 250ms all;
+}
+.category_link:hover{
+  transform: scale(1.1,1.1);
+}
+.purchaseButton:hover{
+  transform: scale(1.2 , 1.2);
+}
+.category_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 6px rgba(0,0,0,.16);
+  overflow: hidden;
+  border-radius: 8px;
+}
+.category_img img{
+  /* width: 100%; */
+  object-fit: cover;
+}
+.category_display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 6px rgba(0,0,0,.16);
+  overflow: hidden;
+  border-radius: 8px;
+}
+.category_display img{
+  object-fit: cover;
+}
+figcaption{
+  color: black;
+}
+.purchaseButton{
+  text-align: center;
+  border-radius: 8px;
+  background-color: #10847e;
+  font-size: 1.5vw;
+  color: white;
+  border: none;
+}
+.registerFrame{
+  max-width: 500px;
+  min-height: 500px;
+  background-color: #ebeef1;
+  /* margin-top: 10%; */
+  padding: 0%;
+}
+.loginContent{
+  padding-left: 0;
+}
+.domainBar{
+  width: 100%;
+  background-color: rgb(214, 234, 250);
+}
+.logoDom{
+    position: relative;
+}
+.domName{
+    position: relative;
+    width: 100%;
+    color: #10847e;
+}
+td{
+  padding: 10px;
+}
+.submitButton{
+    position: relative;
+    border-radius: 10px;
+    background-color: #825bec; 
+    font-family: Monaco; 
+    color:black;
+    cursor: pointer;
+}

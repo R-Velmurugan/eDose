@@ -1,0 +1,39 @@
+<div class="registerFrame  mx-auto container ">
+    <div class="domainBar container-fluid">
+      <div class="logoDom">
+          <img src="/images/finalLogo(2).png" style="width: 60px; height: 60px;">
+      </div>
+      <div class="domName">
+          <p style="font-family: 'Consolas'; font-size: 30px;"><strong>eDose.com</strong></p>
+          <p style="color: gray; margin-top: -20px;font-family: 'Monaco';">LET your diseases go away with a TAB</p>
+      </div>                
+    </div>
+    
+    <table >
+        <tr>
+            <td><a >Your name:</a></td>
+            <td><%- client.name %></td>
+        </tr>
+
+        <tr>
+            <td><a >Your email:</a></td>
+            <td><%- client.email %></td>
+        </tr>
+
+        <tr>
+            <td><a >Your cart:</a></td>
+            <td><% for(let item = 0 ; item < client.cart.length ; item++){ %>
+                <li><%- client.cart[item] %></li>
+                <% } %>
+            </td>
+        </tr>
+
+        <tr>
+            <td><a >previous purchases:</a></td>
+            <td><% for(let item = 0 ; item < client.cart.length ; item++){ %>
+                <li><%- client.history[item] %></li>
+                <% } %>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,84 @@
+            {
+                "name":"Amla Candy",
+                "price":"Rs.399",
+                "category":"Health-care",
+                "quantity":"25 candies per pack",
+                "description":"Having amla candy everyday can help boost immunity. It helps keep any common health issues like cold and cough at bay. Amla is rich in fiber which is essential for a healthy digestive system. It helps in treating any digestion-related issues like constipation, bloating among others"
+            },
+            {
+                "name":"Cerlac",
+                "price":"Rs.275",
+                "category":"Health-care",
+                "quantity":"500g",
+                "description":"While infants and children have higher requirements of nutrients than adults, 2 serves of CERELAC Rice Cereal provides 75% of a baby's daily need of iron. It is also, a source of 18 important nutrients including vitamins and minerals."
+            },
+            {
+                "name":"Complan",
+                "price":"Rs.198",
+                "category":"Health-care",
+                "quantity":"400g",
+                "description":"It provides 24 vitamins and minerals for health and vitality. It is a rich source of antioxidant vitamins A, C and E. It contains calcium for healthy, strong bones. It has iron to help maintain physical stamina, strength and mental alertness."
+            },
+            {
+                "name":"Electrolyte - D",
+                "price":"Rs.400",
+                "category":"Health-care",
+                "quantity":"300ml per bottle",
+                "description":"Electrolytes regulate nerve and muscle function, hydrate the body, balance blood acidity and pressure, and help rebuild damaged tissue. The muscles and neurons are sometimes referred to as the “electric tissues” of the body."
+            },
+            {
+                "name":"Glucon-D",
+                "price":"Rs.39",
+                "category":"Health-care",
+                "quantity":"200g",
+                "description":"Glucose D Powder is a Powder manufactured by ZYDUS CADILA. It is commonly used for the diagnosis or treatment of dehydration , carbohydrate depletion, antacids."
+            },
+            {
+                "name":"Womens Horlicks",
+                "price":"Rs.250",
+                "category":"Health-care",
+                "quantity":"500g",
+                "description":"It is helpful for for women even men can also use it. Its advanced CALSEAL formula has 100% daily requirement of 3 nutrients proven to support bone health which are Calcium, Vitamin D and K2. Vitamin D helps with Calcium absorption, and K2 helps for binding calcium to bones."
+            },
+            {
+                "name":"Kabasuram tablets",
+                "price":"Rs.470",
+                "category":"Health-care",
+                "quantity":"30 capsules per pack",
+                "description":"Helpful in respiratory-related symptoms like phlegm, cough, fever, etc. Loaded with powerful anti-inflammatory, analgesic, antioxidant, and antiviral properties. Acts as an immunomodulator and possesses antipyretic properties. Also has hepatoprotective, antifungal, antibacterial, and antiviral benefits."
+            },
+            {
+                "name":"Nestle Nan-Pro",
+                "price":"Rs.230",
+                "category":"Health-care",
+                "quantity":"500g",
+                "description":"It's an excellent formula for infants. The 1st choice of my babies is NanPro. It's very essential to choose the right product and nanpro has it all. Its added with Highly recommend minerals and supplements required for proper growth of infants."
+            },
+            {
+                "name":"Quaker Oats",
+                "price":"Rs.199",
+                "category":"Health-care",
+                "quantity":"250g",
+                "description":"Considering its nutritional profile and health benefits, including weight control and heart-healthy effect. As a breakfast food and mid-meal snack, oatmeal is potentially a better option than the majority of foods available in the market."
+            },
+            {
+                "name":"Whey-Protein Powder",
+                "price":"Rs.350",
+                "category":"Health-care",
+                "quantity":"250g",
+                "description":"It is commonly used as a protein supplement. Whey protein might improve the nutrient content of the diet and also have effects on the immune system. Whey protein is used for improving athletic performance and increasing strength."
+            },
+            {
+                "name":"ProteinX",
+                "price":"Rs.499",
+                "category":"Health-care",
+                "quantity":"250g",
+                "description":"Protein for growth and maintenance of muscle mass. Vitamin B1 & B2 to help in metabolism.        Vitamin A,C,D,E,B12 to support immunity. Folate help to reduce tiredness."
+            },
+            {
+                "name":"Spirulina",
+                "price":"Rs.599",
+                "category":"Health-care",
+                "quantity":"300g",
+                "description":"Spirulina is rich in a range of vitamins and minerals essential for maintaining a healthy immune system, like vitamins E, C, and B6. Research finds that spirulina also boosts the production of white blood cells and antibodies that fight viruses and bacteria in your body."
+            },

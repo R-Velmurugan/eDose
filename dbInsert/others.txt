@@ -1,0 +1,112 @@
+{
+                "name":"Band-Aid",
+                "price":"Rs.29",
+                "category":"others",
+                "quantity":"30 Nos per pack",
+                "description":"Perfectly sterilized using Ethylene oxide and untouched! Take care of your own boo boos. This pack has both normal and round type(15 and 15). This has 10% more adhesive strength than the others available in the market."
+            },
+            {
+                "name":"Cold patches",
+                "price":"Rs.255",
+                "category":"others",
+                "quantity":"25 Nos per pack",
+                "description":"Clean and dry the affected area. Remove the backing from the patch and apply the patch to the affected area. Do not apply the patch to skin that is injured or irritated (such as skin that is cut, scraped, sunburned, infected, or has a rash). Leave the patch on the affected area for up to 12 hours."
+            },
+            {
+                "name":"Surgical mask, gloves",
+                "price":"Rs.29",
+                "category":"others",
+                "quantity":"30 Nos per pack",
+                "description":"Perfect for science students and frontline workers. Best fitting; comfortable for all the day usage. Completely sterilized and untouched by hands. Approved by XXX for usage in Covid situations."
+            },
+            {
+                "name":"Pampers",
+                "price":"Rs.99",
+                "category":"others",
+                "quantity":"10 Nos per pack",
+                "description":"Pampers All round Protection Pants, Extra Large size baby diapers (XL) 56 Count, Lotion with Aloe Vera. Complete protection for more than six hours. Absorbs more than 5 rounds."
+            },
+            {
+                "name":"POP cast",
+                "price":"Rs.250",
+                "category":"others",
+                "quantity":"3m roll",
+                "description":"Plaster of Paris (POP) casts are often applied in the Emergency Department as means of immobilising fractures, pre-operative protection and pain relief. Application of POP is a procedure, often performed by nurses."
+            },
+            {
+                "name":"Sanitizer",
+                "price":"Rs.49",
+                "category":"others",
+                "quantity":"150ml per bottle",
+                "description":"Kills 99.99% of germs. Alcohol based. Proved to kill Corona virus. For best results apply 2 drops of sanitizer on dry hands and rub completely."
+            },
+            {
+                "name":"Solvin",
+                "price":"Rs.150",
+                "category":"others",
+                "quantity":"200ml per bottle",
+                "description":"Solvin syrup is primarily used to treat common cold symptoms. It is a combination drug containing Chlorpheniramine (anti-histamine/antiallergic) and phenylephrine (decongestant), primarily used to treat common cold symptoms like runny nose, congestion, watery eyes, sneezing."
+            },
+            {
+                "name":"Insulin Syringe",
+                "price":"Rs.60",
+                "category":"others",
+                "quantity":"12 Nos per order",
+                "description":"Syringes can be used to deliver insulin directly into the layer of fat below the skin, or they can inject insulin into a temporary “port” that sits on the skin. The port, which is changed every 2-3 days, features a small flexible plastic tube that sits below the skin."
+            },
+            {
+                "name":"IR Thermometer",
+                "price":"Rs.499",
+                "category":"others",
+                "quantity":"1 Nos per order",
+                "description":"Infrared thermometers are one of the most popular types of thermometers as they help you read temperatures without the risk of transmitting germs. Fast response and accurate results."
+            },
+            {
+                "name":"Vicks",
+                "price":"Rs.99",
+                "category":"others",
+                "quantity":"100 Nos per pack",
+                "description":"Vicks Cough Drops work as a cough suppressant and/or oral anesthetic it stops the dry cough* before it even starts and gives you confidence to face the world in your best form. For more than 50 years, it has remained everyone's top tasty choice for relieving minor throat irritations."
+            },
+            {
+                "name":"Whisper",
+                "price":"Rs.200",
+                "category":"others",
+                "quantity":"20 Nos per pack",
+                "description":"Efficiently absorbs menstrual contents and other materials that your body discards during periods. This may give you an idea of how hygienic or unhygienic it could be if you aren't able to change your pad for long! Wider than all pads available in the market."
+            },
+            {
+                "name":"Baby wipes",
+                "price":"Rs.200",
+                "category":"others",
+                "quantity":"100 wipes per pack",
+                "description":"Can be used for more than just cleaning babies' bottoms. They're great for wiping your hands after pumping gas, mopping up small spills in the car, and cooling your sweaty brow after a run."
+            },
+            {
+                "name":"Feeding bottle",
+                "price":"Rs.120",
+                "category":"others",
+                "quantity":"1 Nos per order",
+                "description":"For feeding infants and young children, or if someone cannot (without difficulty) drink from a cup, for feeding oneself or being fed. It can also be used to feed non-human mammals."
+            },
+            {
+                "name":"Orthopaedic footwear",
+                "price":"Rs.450",
+                "category":"others",
+                "quantity":"1 pair per order",
+                "description":" Specifically designed to support or accommodate the mechanics and structure of the foot, ankle and leg and they have a number of medically beneficial features and functions that separate them from everyday footwear."
+            },
+            {
+                "name":"Soap",
+                "price":"Rs.49",
+                "category":"others",
+                "quantity":"1 product per order",
+                "description":"Great for dry skin. Moisturizing effect can be seen right after the first usage. Efficient in removing dead skin cells from your skin. Regain your original skin color."
+            },
+            {
+                "name":"Tincture",
+                "price":"Rs.99",
+                "category":"others",
+                "quantity":"200ml per bottle",
+                "description":"Highly concentrated herbal extracts that are swallowed or absorbed under the tongue. CBD tinctures can reduce anxiety, treat epilepsy, and relieve pain, improves sleep, reduce muscle spasms, treat chemo-induced nausea, and relieve pain."
+            },

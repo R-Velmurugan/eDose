@@ -1,0 +1,15 @@
+<div class="row shadow">
+    <% if(name !== 'undefined'){ %>
+        <div> Thank you <%- name %> for shopping with us! </div>
+    <% } %>
+    <div class="col" style="padding: 10vw 3vw;">
+        <h4 style="background-color: #e1effc; border-radius: 8px;">Order summary:</h4><br>
+        <ul style="list-style-type:none ; background-color: #e1effc; border-radius: 8px;">
+            <% for(let i = 0 ; i<orderSummary.length ; i++){ %>
+                <li><%- orderSummary[i] %></li>
+            <% } %>
+            <a href="/"><button class="purchaseButton shadow" style="text-decoration: none;" >Keep Shopping</button></a>
+        </ul>
+    </div>
+    <div class="col" ><img src="/images/thank-you-for-shopping.png" alt="Thank you for shopping with us :)"></div>
+</div>

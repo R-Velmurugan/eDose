@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= typeof title!= 'undefined' ? title:'eDose'  %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="py-2"style="background-image: url('/images/background.jpg'); background-repeat: repeat-xy;">
+    <div class="container-xxl px-md-4 bg-white shadow-lg py-2" >
+
+        <!--navbar begins-->
+        <nav class="navbar navbar-expand-lg navbarBar sticky-top" style="background-color: #10847e; border-radius: 9px;">
+            <div class="container-fluid" >
+                <a class="navbar-brand d-flex" href="/">
+                <img id="finalLogo" src="/images/finalLogo.png" class="finalLogoClass">
+                    <span style="color: white;"><h1  class="pt-4 mt-2 ps-1 homeButton">eDose</h1></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse,#navbarCollapse1">
+                <span class="navbar-toggler-icon justify-content-end" id="hamBurger"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link medicines " href="/medicines"style="color: white;"><span  class="navbarButton "style="padding-left: 12px;"><i class="fas fa-pills"></i>Medicines</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link healthCare" href="/healthcare"style="color: white;"><span  class="navbarButton"style="padding-left: 12px;"><i class="fas fa-walking"></i></i>HealthCare</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link others" href="/otherproducts"style="color: white;"><span  class="navbarButton"style="padding-left: 12px;"><i class="bi bi-bandaid"></i>Others</span></a>
+                    </li>
+                </ul>
+                <form class="d-flex searchBar" method="get" action="/search">
+                    <button class="btn  me-2 searchIcon" type="submit"><i class="bi bi-search"></i></button>
+                    <input  name="searchTerm" class="form-control me-2 typeahead" data-provide="typeahead" type="search" placeholder="Search" aria-label="Search" style="width: 100%;" >
+                </form>
+            <a href="/login" class="nav-link loginButton" style="color:white;"><%-typeof a != 'undefined' ? a : '<i class="bi bi-box-arrow-in-right"></i>Login/Register' %></a>
+            <a href="/details" class="nav-link cartButton" style="color: white;"><i class="bi bi-cart4"></i> profile </a>
+            </div>
+          </div>
+        </nav>
+        <!--navbar ends-->
+
+        <main>
+            <%- body -%>
+        </main>
+            
+        <!--footer begins-->
+        <footer style="padding-left: 10%; padding-right: 10%; "> 
+            <div class="d-flex justify-content-center border-bottom justify-content-lg-between ">
+                <span class="me-5 d-lg-block d-none mt-2 "style="font-family: 'Monaco','Consolas'; font-size: 20px">Connect with us on</span>
+                <div>
+                <a href="#" class="me-4 socialMediaIcons" >
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="me-4 socialMediaIcons" >
+                    <i class="bi bi-twitter" ></i>
+                </a> 
+                <a href="#" class="me-4 socialMediaIcons" >
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="me-4 socialMediaIcons" >
+                    <i class="bi bi-messenger"></i>
+                </a>
+                <a href="#" class="me-4 socialMediaIcons" >
+                    <i class="bi bi-telegram"></i>
+                </a>
+                <a href="#" class="me-4 socialMediaIcons">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                </div>
+            </div>
+            <!--text-->
+                <div class="row mt-2 px-3 justify-content-between">
+                    <div class="col-md-4">
+                    <h3>eDose.com <i class="bi bi-badge-tm" style="font-size: 13px;"></i></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ut magnam eaque quis fuga nemo hic facere, consectetur ipsa non rerum porro 
+                        consequuntur, vitae minima saepe iure perspiciatis mollitia similique.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ut magnam eaque quis fuga nemo hic facere, consectetur ipsa non rerum porro 
+                        consequuntur, vitae minima saepe iure perspiciatis mollitia similique.</p>
+                    </div>
+                    <div class="col-md-4">
+                    <h4 style="font-family:'Monaco','Consolas' ;"> Contact us </h4>
+                    <div class="ps-3">
+                        <p><i class="fas fa-home contactIcons" ></i>&nbsp&nbspLorem ipsum street ,&nbspCoimbatore</p>
+                        <a href="mailto:loremipsum@gmail.com" style="text-decoration: none; color: black;"><p><i class="fas fa-envelope contactIcons"></i>&nbsp&nbsp&nbsploremipsum@gmail.com </p></a>
+                        <p><i class="bi bi-telephone-fill contactIcons"></i>&nbsp&nbsp  + 01234 56788 , + 01234 56788</p>
+                    </div>
+                    <h4 style="font-family: 'Monaco','Consolas';">Our Partners</h4>
+                    <div class="ps-3">
+                        <p><i class="fas fa-briefcase-medical "></i>&nbsp&nbspLorem clinic&nbsp&nbsp&nbsp&nbsp<i class="fas fa-user-md"></i>&nbsp&nbspTeam Lorem&nbsp&nbsp&nbsp&nbsp
+                        <i class="fas fa-truck-loading"></i>&nbsp&nbspLorem movers</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="d-flex border-top justify-content-center pt-3 pb-3" >
+                    <p style="font-family:'calibri';"><i class="far fa-copyright"></i>&nbspCopyrights reserved for the trademark and the brandname</p>
+                </div>
+        </footer>
+        <!--footer ends-->
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

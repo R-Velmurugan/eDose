@@ -1,0 +1,48 @@
+<div class="registerFrame  mx-auto container ">
+  <div class="domainBar container-fluid">
+    <div class="logoDom">
+        <img src="/images/finalLogo(2).png" style="width: 60px; height: 60px;">
+    </div>
+    <div class="domName">
+        <p style="font-family: 'Consolas'; font-size: 30px;"><strong>eDose.com</strong></p>
+        <p style="color: gray; margin-top: -20px;font-family: 'Monaco';">LET your diseases go away with a TAB</p>
+    </div>                
+  </div>
+  <form action="/index" method="post">
+    <table id="loginForm">
+        <div class="mb-3 mt-3">
+          <tr>
+            <td><label for="emailID">Enter your mail:</label></td>
+            <td><input type="text" id=emailID-id name="emailID" placeholder="sample@gmail.com" class="form-control"></td>
+          </tr>
+        </div>
+        <div class="mb-3 mt-3">
+          <tr >
+            <td><label for="logPassword">Enter password:</label></td>
+            <td><input type="password" id="logPassword" name="logPassword" placeholder="password" class="form-control"></td>
+          </tr>
+        </div>
+        <div class="mb-3 mt-3">
+          <tr>
+            <td>
+                <a>
+                <button class="submitButton" type="submit" class="form-control">
+                    <p><strong>  Login  </strong></p>
+                </button>
+                </a>
+            </td>
+          </tr>
+        </div>
+        <tr class="mb-3 mt-3">
+            <!-- <td><br><br><p>New user? Register<a href="#" onclick="fun()"> here</a></p></td> -->
+            <td><br><br><p></p>New user? Register<a href="/register"> here</a></td>
+        </tr>
+    </table>
+  </form>
+
+</div>
+  <script>
+    function fun(){
+        document.getElementById('loginForm').innerHTML='<form method="post"><table ><tr><td><label for="firstName">Enter your first name:</label></td><td><input type="text" id="firstNameID" name="firstName" placeholder="first name"></td></tr><tr><td><label for="lastName">Enter yout last name:</label></td><td><input type="text" id="lastNameID" name="lastName" placeholder="last name"></td></tr><tr><td><label for="phoneNumber">Enter your phone number:</label></td><td><input type="tel" id="phoneNumberID" name="phoneNumber" placeholder="9876543210"></td></tr><tr><td><label for="password">Enter your password:</label></td><td><input type="password" name="password" id="passwordID" placeholder="password"></td></tr><tr><td><label for="repassword">re-type your password:</label></td><td><input type="password" name="repassword" id="repasswordID"placeholder="password"></td></tr><tr><td><label for="robot"><input type="checkbox" name="robot" id="robotID">Im not a robot</label></td></tr><td><a href="loginPage.html"><button class="submitButton"type="button"><p><b>Register</b></p></button></a></td></table></form>';
+    }
+</script>

@@ -1,0 +1,53 @@
+<div class="registerFrame  mx-auto container ">
+    <div class="domainBar container-fluid">
+      <div class="logoDom">
+          <img src="/images/finalLogo(2).png" style="width: 60px; height: 60px;">
+      </div>
+      <div class="domName">
+          <p style="font-family: 'Consolas'; font-size: 30px;"><strong>eDose.com</strong></p>
+          <p style="color: gray; margin-top: -20px;font-family: 'Monaco';">LET your diseases go away with a TAB</p>
+      </div>                
+    </div>
+    
+    <form method="post" action="/login">
+        <table >
+            <tr><td><label for="name">Enter your name:</label></td><td>
+                <input type="text" id="name-id" name="name" placeholder="your name">
+            </td></tr>
+
+            <tr><td><label for="password">Enter your password:</label></td>
+                <td><input type="password" name="password" id="password-id" placeholder="password">
+            </td></tr>
+
+            <tr><td><label for="repassword">re-type your password:</label></td>
+                <td><input type="password" name="repassword" id="repassword-id"placeholder="password">
+            </td></tr>
+
+            <tr><td><label for="email">Enter your email:</label></td>
+                <td><input type="text" name="email" id="emailID-id"placeholder="sample@gmail.com">
+            </td></tr>
+            
+            <tr><td><label for="robot"><input type="checkbox" name="robot" id="robot-id" onclick="validate()">Im not a robot</label>
+            </td></tr>
+
+            <td><button class="submitButton"type="submit"><p><b>Register</b></p></button></td>
+        </table>
+    </form>  
+</div>
+
+<script>
+    function validate(){
+        let password = document.getElementById("password-id").value;
+        let rePassword = document.getElementById("repassword-id").value;
+        let name = document.getElementById("name-id").value;
+        let email = document.getElementById("emailID-id").value; 
+
+        if(!(password) || !(rePassword) || !(name) || !(email)){
+            window.alert("One or more feilds are empty");
+        }
+
+        if(password !== rePassword){
+            window.alert("Passwords do not match !");
+        }
+    }
+</script>

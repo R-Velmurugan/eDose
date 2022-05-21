@@ -1,0 +1,84 @@
+            {
+                "name":"Paracetamol-500mg",
+                "price":"Rs.50",
+                "category":"Medicines",
+                "quantity":"10 tablets-per blister pack",
+                "description":"This medicine contains paracetamol. It belongs to a group of medicines called analgesics (painkillers) and is used to treat pain (including headache, toothache, back and period pain) and cold or flu symptoms."
+            },
+            {
+                "name":"Alkof-Syrup",
+                "price":"Rs.99",
+                "category":"Medicines",
+                "quantity":"250ml per bottle",
+                "description": "Alkof Syrup is a combination of three medicines: Guaifenesin, Terbutaline and Bromhexine, which relieves cough with mucus. Guaifenesin is an expectorant which decreases the stickiness of mucus (phlegm) and helps in its removal from the airways. Terbutaline is a bronchodilator."
+            },
+            {
+                "name":"Amide-25mg",
+                "price":"Rs.109",
+                "category":"Medicines",
+                "quantity":"20 tablets-per blister pack",
+                "description": "Amide 25 Tablet is a prescription medicine used in the treatment of schizophrenia, a mental disorder that can result in hallucinations or delusions and also adversely affects a person's ability to think and behave."
+            },
+            {
+                "name":"AstyferZ-30mg",
+                "price":"Rs.59",
+                "category":"Medicines",
+                "quantity":"10 tablets-per blister pack",
+                "description": "Astyfer Capsule is a Capsule manufactured by TABLETS INDIA. It is commonly used for the diagnosis or treatment of allergic diseases, anemia , adjunct therapy for memory enhancement. It has some side effects such as Allergic rejection,Abdominal cramps,Allergic reactions,Bitter taste in the mouth.So do not use without prescription"
+            },
+            {
+                "name":"Avil",
+                "price":"Rs.150",
+                "category":"Medicines",
+                "quantity":"18 tablets-per blister pack",
+                "description": "It helps treat allergy-like runny nose, sneezing, congestion, itching, and watery eyes. It is also used to avoid or relieve motion sickness, nasal congestion, and allergic skin irritation. Avil 25 Tablet 15's contains Pheniramine, which is an antihistamine medication."
+            },
+            {
+                "name":"Benadryl-Syrup",
+                "price":"Rs.100",
+                "category":"Medicines",
+                "quantity":"200ml per bottle",
+                "description": "Benadryl Syrup helps to loosen thick mucus and reduces its stickiness, making it easier to cough out. This makes it easier for air to move in and out. It will also relieve allergy symptoms like watery eyes, sneezing, runny nose or throat irritation and help you carry out your daily activities more easily."
+            },
+            {
+                "name":"Calaptin-SR",
+                "price":"Rs.159",
+                "category":"Medicines",
+                "quantity":"10 tablets-per blister pack",
+                "description": "Calaptin contains 'Verapamil'. It is used to treat high blood pressure. Lowering high blood pressure helps prevent strokes, heart attacks, and kidney problems. Verapamil belongs to a class of drugs known as calcium channel blockers."
+            },
+            {
+                "name":"Cetrizine",
+                "price":"Rs.299",
+                "category":"Medicines",
+                "quantity":"50 tablets-per blister pack",
+                "description": "Cetirizine is used to temporarily relieve the symptoms of hay fever (allergy to pollen, dust, or other substances in the air) and allergy to other substances (such as dust mites, animal dander, cockroaches, and molds). These symptoms include sneezing; runny nose; itchy, red, watery eyes; and itchy nose or throat"
+            },
+            {
+                "name":"Cofsils-Syrup",
+                "price":"Rs.64",
+                "category":"Medicines",
+                "quantity":"100ml per bottle",
+                "description": "Cofsils Medicated Cough Syrup is specially formulated using antiallergic, expectorant, and mucolytic agents that provide relief from cough and its related symptoms. It is also effective for stuffy nose, chest congestion, etc."
+            },
+            {
+                "name":"Dolo-650",
+                "price":"Rs.30",
+                "category":"Medicines",
+                "quantity":"30 tablets-per blister pack",
+                "description": "Dolo-650 Tablet 15's belongs to the group of mild analgesics , and antipyretic  used to treat mild to moderate pain including headache, migraine, toothache, menstrual period pain, osteoarthritis pain, musculoskeletal pain, and reducing fever."
+            },
+            {
+                "name":"Lopermide",
+                "price":"Rs.50",
+                "category":"Medicines",
+                "quantity":"8 tablets-per blister pack",
+                "description": "Lopermide tablet contains an anti-diarrheal medication, primarily used to treat diarrhea in Inflammatory Bowel Disease and Short Bowel Syndrome by decreasing over-active bowel, including sudden diarrhea."
+            },
+            {
+                "name":"Montek-LC",
+                "price":"Rs.146",
+                "category":"Medicines",
+                "quantity":"10 tablets-per blister pack",
+                "description": "Levocetirizine belongs to a class of drugs called antihistamine or anti-allergic. It treats sneezing, runny nose, and allergic skin due to various allergies and hay fever (seasonal allergy)."
+            },

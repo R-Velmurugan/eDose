@@ -1,0 +1,15 @@
+<div class="row row-cols-3  g-2 g-lg-3 py-4" style="align-items: center;">
+    <% if(otherProducts != '') { %>
+        <% otherProducts.forEach(function(otherProduct , index) { %>
+            <% let productName =  otherProduct.name+".jpg"%>
+            <a href="/otherProducts/<%- otherProduct.id %>"class="col text-center category_link px-5">
+                <div class="category_display shadow" style="background-color: #e9eaec;">
+                    <!-- <img src="uploads/Amla Candy.jpg" alt="Medicines" loading="lazy"> -->
+                    <img src="uploads/<%-productName%>" alt="<% otherProduct.name %>">
+                </div>
+                <figcaption><%- otherProduct.name %></figcaption>
+                <div class="pt-1"></div>
+            </a>
+        <% }) %>
+    <% } %>
+</div>
